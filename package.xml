@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<package packagerversion="1.5.4" version="2.0" xmlns="http://pear.php.net/dtd/package-2.0" xmlns:tasks="http://pear.php.net/dtd/tasks-1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://pear.php.net/dtd/tasks-1.0
+    http://pear.php.net/dtd/tasks-1.0.xsd
+    http://pear.php.net/dtd/package-2.0
+    http://pear.php.net/dtd/package-2.0.xsd">
+ <name>Math_GeographicPoint</name>
+ <uri>http://localhost/</uri>
+ <summary>xx</summary>
+ <description>xx</description>
+ <lead>
+  <name>Lars Olesen</name>
+  <user>lsolesen</user>
+  <email>lars@legestue.net</email>
+  <active>yes</active>
+ </lead>
+ <date>2007-06-07</date>
+ <time>13:33:46</time>
+ <version>
+  <release>0.0.1</release>
+  <api>0.0.1</api>
+ </version>
+ <stability>
+  <release>alpha</release>
+  <api>alpha</api>
+ </stability>
+ <license uri="http://www.gnu.org/licenses/lgpl.html">LGPL License</license>
+ <notes>x</notes>
+ <contents>
+  <dir baseinstalldir="Math" name="/">
+   <dir name="api">
+    <dir name="default">
+     <file name="LatitudeLongitudeTest.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="Math_GeographicPoint_DistanceCalculator.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="_docs---example.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="_GeographicPoint---DistanceCalculator.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="_tests---LatitudeLongitudeTest.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+    </dir> <!-- /api/default -->
+    <dir name="Math_GeographicPoint">
+     <file name="Lambert_Config.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="LatitudeLongitudeTest.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="Math_GeographicPoint.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="Math_GeographicPoint_DistanceCalculator.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="Math_GeographicPoint_Lambert.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="Math_GeographicPoint_Lambert_Config.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="Math_GeographicPoint_LatitudeLongitude.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="Math_GeographicPoint_UTM.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="tutorial_Math_GeographicPoint.pkg.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="tutorial_tutorial.pkg.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="_docs---example.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="_docs---examples---example.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="_GeographicPoint---DistanceCalculator.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="_GeographicPoint---Lambert---Config.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="_GeographicPoint---Lambert.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="_GeographicPoint---LatitudeLongitude.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="_GeographicPoint---UTM.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="_GeographicPoint.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="_makepackage.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="_tests---LatitudeLongitudeTest.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+    </dir> <!-- /api/Math_GeographicPoint -->
+    <dir name="media">
+     <file name="banner.css" role="data">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="stylesheet.css" role="data">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+    </dir> <!-- /api/media -->
+    <dir name="Services_Geocoding_GeographicPoint">
+     <file name="_GeographicPoint.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+    </dir> <!-- /api/Services_Geocoding_GeographicPoint -->
+    <dir name="__examplesource">
+     <file name="exsource_ies_Math_GeographicPoint_docs_examples_example.php_308088ff207c56c9230c64d0cb559e51.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+    </dir> <!-- /api/__examplesource -->
+    <dir name="__filesource">
+     <file name="fsource_default__docsexample.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="fsource_default__GeographicPointDistanceCalculator.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="fsource_default__testsLatitudeLongitudeTest.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="fsource_Math_GeographicPoint__docsexample.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="fsource_Math_GeographicPoint__docsexamplesexample.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="fsource_Math_GeographicPoint__GeographicPoint.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="fsource_Math_GeographicPoint__GeographicPointDistanceCalculator.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="fsource_Math_GeographicPoint__GeographicPointLambert.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="fsource_Math_GeographicPoint__GeographicPointLambertConfig.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="fsource_Math_GeographicPoint__GeographicPointLatitudeLongitude.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="fsource_Math_GeographicPoint__GeographicPointUTM.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="fsource_Math_GeographicPoint__makepackage.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="fsource_Math_GeographicPoint__testsLatitudeLongitudeTest.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+     <file name="fsource_Services_Geocoding_GeographicPoint__GeographicPoint.php.html" role="doc">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+    </dir> <!-- /api/__filesource -->
+    <file name="blank.html" role="doc">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="classtrees_default.html" role="doc">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="classtrees_Math_GeographicPoint.html" role="doc">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="classtrees_Services_Geocoding_GeographicPoint.html" role="doc">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="elementindex.html" role="doc">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="elementindex_default.html" role="doc">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="elementindex_Math_GeographicPoint.html" role="doc">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="elementindex_Services_Geocoding_GeographicPoint.html" role="doc">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="errors.html" role="doc">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="index.html" role="doc">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="li_default.html" role="doc">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="li_Math_GeographicPoint.html" role="doc">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="li_Services_Geocoding_GeographicPoint.html" role="doc">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="packages.html" role="doc">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="todolist.html" role="doc">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+   </dir> <!-- /api -->
+   <dir name="docs">
+    <dir name="examples">
+     <file name="example.php" role="php">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+    </dir> <!-- /docs/examples -->
+   </dir> <!-- /docs -->
+   <dir name="GeographicPoint">
+    <dir name="Lambert">
+     <file name="Config.php" role="php">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+    </dir> <!-- /GeographicPoint/Lambert -->
+    <file name="DistanceCalculator.php" role="php">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="Lambert.php" role="php">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="LatitudeLongitude.php" role="php">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="UTM.php" role="php">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+   </dir> <!-- /GeographicPoint -->
+   <dir name="tests">
+    <file name="AllTests.php" role="php">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="LambertTest.php" role="php">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="LatitudeLongitudeTest.php" role="php">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+    <file name="UTMTest.php" role="php">
+     <tasks:replace from="@package-version@" to="version" type="package-info" />
+    </file>
+   </dir> <!-- /tests -->
+   <dir name="tutorials">
+    <dir name="Math_GeographicPoint">
+     <file name="tutorial.pkg" role="data">
+      <tasks:replace from="@package-version@" to="version" type="package-info" />
+     </file>
+    </dir> <!-- /tutorials/Math_GeographicPoint -->
+   </dir> <!-- /tutorials -->
+   <file name="GeographicPoint.php" role="php">
+    <tasks:replace from="@package-version@" to="version" type="package-info" />
+   </file>
+   <file name="makepackage.php" role="php">
+    <tasks:replace from="@package-version@" to="version" type="package-info" />
+   </file>
+  </dir> <!-- / -->
+ </contents>
+ <dependencies>
+  <required>
+   <php>
+    <min>4.3.0</min>
+   </php>
+   <pearinstaller>
+    <min>1.5.0</min>
+   </pearinstaller>
+  </required>
+ </dependencies>
+ <phprelease />
+ <changelog>
+  <release>
+   <version>
+    <release>0.0.1</release>
+    <api>0.0.1</api>
+   </version>
+   <stability>
+    <release>alpha</release>
+    <api>alpha</api>
+   </stability>
+   <date>2007-06-07</date>
+   <license uri="http://www.gnu.org/licenses/lgpl.html">LGPL License</license>
+   <notes>x</notes>
+  </release>
+ </changelog>
+</package>
