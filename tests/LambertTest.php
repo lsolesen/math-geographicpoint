@@ -15,6 +15,8 @@
  * @version   @package-version@
  * @link      http://public.intraface.dk
  */
+set_include_path(dirname(__FILE__) . '/../src/' . PATH_SEPARATOR . get_include_path());
+
 require_once 'PHPUnit/Framework.php';
 require_once 'Math/GeographicPoint/Lambert.php';
 
